@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Pickups</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #292929;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .pickup-form {
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .pickup-form label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .pickup-form input[type="text"] {
+      width: calc(100% - 22px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .pickup-form input[type="submit"] {
+      background-color: #292929;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .pickup-form input[type="submit"]:hover {
+      background-color: #454545;
+    }
+    .main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      width: 300px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .card h2 {
+      color: #292929;
+    }
+    .card p {
+      color: #666;
+    }
+    .footer {
+      background-color: #292929;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Test Pickups</h1>
+  </div>
+
+  <div class="container">
+    <div class="pickup-form">
+      <h2>Book Your Ride</h2>
+      <form action="#" method="post">
+        <label for="pickup-location">Pickup Location:</label>
+        <input type="text" id="pickup-location" name="pickup-location" placeholder="Enter pickup location">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter destination">
+        <label for="pickup-time">Pickup Time:</label>
+        <input type="text" id="pickup-time" name="pickup-time" placeholder="Enter pickup time">
+        <input type="submit" value="Request Pickup">
+      </form>
+    </div>
+
+    <div class="main-content">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <h2>Experience</h2>
+        <p>Discover the local culture with your personal driver.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <h2>Convenience</h2>
+        <p>Book your ride hassle-free and enjoy a stress-free journey.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+        <h2>Reliability</h2>
+        <p>Travel with peace of mind knowing your driver is always on time.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 Test Pickups</p>
+  </div>
+</body>
+</html>

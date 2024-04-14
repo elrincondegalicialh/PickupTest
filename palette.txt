@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/2d3b4e-ff8811-f4d06f-fff8f0-9dd9d2 */
+
+- Tailwind
+
+{ 'charcoal': { DEFAULT: '#2d3b4e', 100: '#090c10', 200: '#12171f', 300: '#1b232f', 400: '#242f3e', 500: '#2d3b4e', 600: '#495f7f', 700: '#6b85aa', 800: '#9daec6', 900: '#ced6e3' }, 'ut_orange': { DEFAULT: '#ff8811', 100: '#361b00', 200: '#6c3600', 300: '#a25100', 400: '#d86c00', 500: '#ff8811', 600: '#ff9f3f', 700: '#ffb76f', 800: '#ffcf9f', 900: '#ffe7cf' }, 'jasmine': { DEFAULT: '#f4d06f', 100: '#423205', 200: '#85640a', 300: '#c7960f', 400: '#efbc2e', 500: '#f4d06f', 600: '#f6da8d', 700: '#f9e4aa', 800: '#fbedc6', 900: '#fdf6e3' }, 'floral_white': { DEFAULT: '#fff8f0', 100: '#633500', 200: '#c66a00', 300: '#ff9c2a', 400: '#ffca8d', 500: '#fff8f0', 600: '#fff9f3', 700: '#fffbf6', 800: '#fffcf9', 900: '#fffefc' }, 'tiffany_blue': { DEFAULT: '#9dd9d2', 100: '#153632', 200: '#2a6b64', 300: '#3fa195', 400: '#66c4b9', 500: '#9dd9d2', 600: '#b0e0db', 700: '#c4e8e4', 800: '#d7f0ed', 900: '#ebf7f6' } }
+
+- CSV
+
+2d3b4e,ff8811,f4d06f,fff8f0,9dd9d2
+
+- With #
+
+#2d3b4e, #ff8811, #f4d06f, #fff8f0, #9dd9d2
+
+- Array
+
+["2d3b4e","ff8811","f4d06f","fff8f0","9dd9d2"]
+
+- Object
+
+{"Charcoal":"2d3b4e","UT orange":"ff8811","Jasmine":"f4d06f","Floral white":"fff8f0","Tiffany Blue":"9dd9d2"}
+
+- Extended Array
+
+[{"name":"Charcoal","hex":"2d3b4e","rgb":[45,59,78],"cmyk":[42,24,0,69],"hsb":[215,42,31],"hsl":[215,27,24],"lab":[24,0,-13]},{"name":"UT orange","hex":"ff8811","rgb":[255,136,17],"cmyk":[0,47,93,0],"hsb":[30,93,100],"hsl":[30,100,53],"lab":[69,39,73]},{"name":"Jasmine","hex":"f4d06f","rgb":[244,208,111],"cmyk":[0,15,55,4],"hsb":[44,55,96],"hsl":[44,86,70],"lab":[85,1,52]},{"name":"Floral white","hex":"fff8f0","rgb":[255,248,240],"cmyk":[0,3,6,0],"hsb":[32,6,100],"hsl":[32,100,97],"lab":[98,1,5]},{"name":"Tiffany Blue","hex":"9dd9d2","rgb":[157,217,210],"cmyk":[28,0,3,15],"hsb":[173,28,85],"hsl":[173,44,73],"lab":[83,-21,-3]}]
+
+- XML
+
+<palette>
+  <color name="Charcoal" hex="2d3b4e" r="45" g="59" b="78" />
+  <color name="UT orange" hex="ff8811" r="255" g="136" b="17" />
+  <color name="Jasmine" hex="f4d06f" r="244" g="208" b="111" />
+  <color name="Floral white" hex="fff8f0" r="255" g="248" b="240" />
+  <color name="Tiffany Blue" hex="9dd9d2" r="157" g="217" b="210" />
+</palette>
